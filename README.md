@@ -10,13 +10,13 @@ In this project, we want to help Louise to understand how different campaigns fa
 
 ### Analysis of Outcomes Based on Launch Date
 
-![Outcomes Based on Launch Date](myFirstRepo/Resource/Theater_Outcomes_vs_Launch.png?raw=true)
+![Outcomes Based on Launch Date](Resource/Theater_Outcomes_vs_Launch.png)
 
 This analysis analyzes the campaign outcomes (successful, failed, canceled) based on its launch date. The information is then filtered to choose **Theater** as the Parent Category, then visualized with a Pivot Chart.
 
 ### Analysis of Outcomes Based on Goals
 
-![Outcomes Based on Goals](myFirstRepo/Resource/Outcomes_vs_Goals.png?raw=true)
+![Outcomes Based on Goals](Resource/Outcomes_vs_Goals.png)
 
 This analysis analyzes the percentage of successful, failed, and canceled plays based on the funding goal amount. To achieve it, firstly, I separated the funding goals into twelve different bins and then used the COUNTIFS() and SUM() function to put the numbers into correct bins. Also, for this analysis, I filtered the Subcategory and only used "Plays" as my primary value.
 
